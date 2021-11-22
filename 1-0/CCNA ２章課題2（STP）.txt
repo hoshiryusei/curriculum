@@ -1,0 +1,14 @@
+課題①　switch3
+
+課題②　switch1 F0/1   DP ルートポートの対向ポート
+        switch1 F0/2   RP ルートブリッジの対向ポート
+
+        switch2 F0/1   DP　コストが少ないからルートポート
+        switch2 F0/2   BP　役割なし
+
+        switch3 E0/1   DP　ルートブリッジだから
+        switch3 E0/2   DP　ルートブリッジだから
+
+        switch4 E0/1   DP　ブリッジIDが一番小さい
+        switch4 E0/2   RP　ルートブリッジの対向ポート
+
